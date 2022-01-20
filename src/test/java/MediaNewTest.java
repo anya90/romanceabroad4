@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MediaTests  extends BaseUI{
+public class MediaNewTest extends BaseUI{
 
     String currentUrlMedia;
 

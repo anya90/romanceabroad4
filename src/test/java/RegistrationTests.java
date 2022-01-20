@@ -1,6 +1,6 @@
 import org.testng.annotations.Test;
 
-public class TestRegistration extends BaseUI {
+public class RegistrationTests extends BaseUI {
     @Test
     public void testRegistration() {
         driver.findElement(Locators.BUTTON_REGISTRATION).click();

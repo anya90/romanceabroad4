@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class StoreTest extends BaseUI {
+public class StoreTests extends BaseUI {
 
     @Test
     public void testStore() {

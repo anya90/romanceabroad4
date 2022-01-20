@@ -6,13 +6,11 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseUI {
     String mainUrl = "https://romanceabroad.com/";
-    WebDriver driver;
-    String currentUrlSearch;
     String currentUrlMedia;
-    By LINK_HOW_WORKS = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
-    By LINK_BLOG = By.cssSelector("a[href='https://romanceabroad.com/content/view/blog']");
-    By LINK_SIGN_IN = By.xpath("//a[@href='https://romanceabroad.com/users/login_form']");
-    int indexLinkSignIn = 0;
+    String currentUrlSearch;
+
+    WebDriver driver;
+
 
     @BeforeMethod
     public void setUp() {
@@ -23,6 +21,6 @@ public class BaseUI {
     }
     @AfterMethod
     public void afterActions() {
-        //  driver.quit();
+        driver.quit();
     }
 }

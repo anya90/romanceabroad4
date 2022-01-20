@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 
-public class SignInTests extends BaseUI {
+public class LoginTests extends BaseUI {
     By LINK_SIGN_IN = By.xpath("//a[@href='https://romanceabroad.com/users/login_form']");
     int indexLinkSignIn = 0;
 

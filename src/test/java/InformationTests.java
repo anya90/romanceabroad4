@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class InformationTest extends BaseUI {
+public class InformationTests extends BaseUI {
     @Test
     public void testInformation() {
         driver.findElement(Locators.LINK_HOW_WORKS).click();

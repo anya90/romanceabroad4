@@ -7,6 +7,7 @@ public class InformationTests extends BaseUI {
         driver.findElement(Locators.LINK_HOW_WORKS).click();
         currentUrlSearch = driver.getCurrentUrl();
         System.out.println(currentUrlSearch);
+        System.out.println(currentUrlSearch);
         Assert.assertEquals(currentUrlSearch, Data.expectedUrlHowWorks);
     }
 
